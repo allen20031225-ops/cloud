@@ -55,3 +55,13 @@ footer{background:#2C2C2C;color:#ddd;text-align:center;padding:14px;font-size:.9
   gap: 18px;
   margin-top: 14px;
 }
+.card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #5a4a3a;
+}
