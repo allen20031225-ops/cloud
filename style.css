@@ -327,3 +327,6 @@ footer{background:#2C2C2C;color:#ddd;text-align:center;padding:14px;font-size:.9
   .dining-hero{ height: 220px; }
   .info-section{ padding: 16px; }
 }
+.card { 
+  margin-bottom: 18px; 
+}
