@@ -219,3 +219,17 @@ footer{background:#2C2C2C;color:#ddd;text-align:center;padding:14px;font-size:.9
   color:#4a3a2a;
   line-height:1.85;
 }
+.attractions-hero {
+  width: 100%;
+  height: 280px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.attractions-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
