@@ -233,3 +233,97 @@ footer{background:#2C2C2C;color:#ddd;text-align:center;padding:14px;font-size:.9
   object-fit: cover;
   display: block;
 }
+
+.dining-hero{
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+  border-radius: 14px;
+  margin: 6px 0 18px;
+  border: 1px solid #ddd;
+  box-shadow: 0 6px 16px rgba(0,0,0,.12);
+}
+.dining-hero img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.section-stack{
+  margin-top: 14px;
+  display: grid;
+  gap: 14px;
+}
+
+.info-section{
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 6px 16px rgba(0,0,0,.12);
+}
+
+.section-head h3{
+  margin: 0 0 10px;
+  font-size: 1.08rem;
+  line-height: 1.35;
+  color: #2C2C2C;
+}
+
+.meta-row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+
+.pill{
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #2C2C2C;
+  color: #fff;
+  font-size: .85rem;
+  font-weight: 800;
+}
+.meta{
+  color: #5a4a3a;
+  font-size: .92rem;
+}
+.sep{
+  color: #b9a99a;
+}
+
+.feature-list{
+  margin: 10px 0 0;
+  padding-left: 18px;
+  line-height: 1.85;
+  color: #4a3a2a;
+}
+
+.info-note{
+  background: #FFF9F1;
+  border: 1px solid #E8DDCF;
+  border-radius: 14px;
+  padding: 16px 18px;
+}
+
+.info-note h3{
+  margin: 0 0 10px;
+  font-size: 1.02rem;
+  color: #2C2C2C;
+}
+
+.note-list{
+  margin: 0;
+  padding-left: 18px;
+  line-height: 1.85;
+  color: #4a3a2a;
+}
+
+@media (max-width: 800px){
+  .dining-hero{ height: 220px; }
+  .info-section{ padding: 16px; }
+}
