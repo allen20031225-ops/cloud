@@ -29,10 +29,86 @@
 <li><a class="nav-link" href="contact.html"><span>交通與聯絡</span><small>Contact</small></a></li>
 <li><a class="nav-link" href="careers.html"><span>人才招募</span><small>Careers</small></a></li></ul></aside>
   <main>
-<h2>線上訂房</h2>
-<p>本頁提供與線上訂房相關的服務與資訊說明。</p>
-<p>如需協助，歡迎前往交通與聯絡頁面與我們聯繫。</p>
+  <h2>線上訂房</h2>
+  <p>請選擇入住日期、退房日期與房型，我們將為你快速安排合適的入住方案。</p>
+
+  <section class="booking-widget">
+    <form class="booking-form">
+      <div class="form-grid">
+        <div class="field">
+          <label for="checkin">入住日期</label>
+          <input type="date" id="checkin" name="checkin" required>
+        </div>
+
+        <div class="field">
+          <label for="checkout">退房日期</label>
+          <input type="date" id="checkout" name="checkout" required>
+        </div>
+
+        <div class="field">
+          <label for="roomtype">房型</label>
+          <select id="roomtype" name="roomtype" required>
+            <option value="" selected disabled>請選擇房型</option>
+            <option value="single">單人房（Single Room）</option>
+            <option value="double">雙人房（Double Room）</option>
+            <option value="executive">行政客房（Executive Room）</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="guests">人數</label>
+          <select id="guests" name="guests" required>
+            <option value="1">1 位</option>
+            <option value="2" selected>2 位</option>
+            <option value="3">3 位</option>
+            <option value="4">4 位</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="plan">入住方案</label>
+          <select id="plan" name="plan">
+            <option value="standard" selected>標準方案</option>
+            <option value="breakfast">含早餐方案</option>
+            <option value="longstay">長住優惠（連住 3 晚以上）</option>
+            <option value="business">企業差旅（需出示公司名片）</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="arrival">預計抵達時間</label>
+          <select id="arrival" name="arrival">
+            <option value="15-18" selected>15:00 - 18:00</option>
+            <option value="18-21">18:00 - 21:00</option>
+            <option value="21-24">21:00 - 24:00</option>
+            <option value="late">00:00 後（請備註）</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn-primary">搜尋空房</button>
+        <span class="hint">送出後可在下方查看訂房說明與入住規範。</span>
+      </div>
+    </form>
+  </section>
+
+  <section class="policy-card">
+    <h3>入住資訊與規範</h3>
+    <ul class="policy-list">
+      <li><strong>入住 / 退房時間：</strong>15:00 後入住；11:00 前退房。</li>
+      <li><strong>取消政策：</strong>入住日前 48 小時可免費取消；逾期可能收取首晚房費。</li>
+      <li><strong>付款方式：</strong>支援信用卡與到店付款（依房況可能需預授權）。</li>
+      <li><strong>停車資訊：</strong>提供地下停車場（車位有限，建議提早抵達）。</li>
+    </ul>
+  </section>
+
+  <p class="note">
+    需要協助或有特殊需求（加床、嬰兒床、無障礙房、深夜入住），歡迎到
+    <a href="contact.html">交通與聯絡</a> 留言或來電，我們將由專人為你服務。
+  </p>
 </main>
+
 </div>
 <footer>© 2025 雲旅小棧 Cloud Inn</footer>
 </div>
