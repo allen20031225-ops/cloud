@@ -37,17 +37,6 @@ footer{background:#2C2C2C;color:#ddd;text-align:center;padding:14px;font-size:.9
   object-fit: cover;
   display: block;
 }
-.card h3{
-  margin: 0 0 8px;
-  font-size: 1.05rem;
-  color: #2C2C2C;
-}
-
-.card p{
-  margin: 0;
-  line-height: 1.85;
-  color: #4a3a2a;
-}
 
 .card-grid{
   display: grid;
@@ -55,16 +44,31 @@ footer{background:#2C2C2C;color:#ddd;text-align:center;padding:14px;font-size:.9
   gap: 18px;
   margin-top: 14px;
 }
-.card h3 {
-  font-size: 1.05rem;
-  margin-bottom: 8px;
+
+.card{
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 6px 16px rgba(0,0,0,.12);
 }
 
-.card p {
+.card-body{
+  padding: 18px;
+}
+
+.card-body h3{
+  margin: 0 0 10px 0;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.card-body p{
+  margin: 0;
   font-size: 0.9rem;
-  line-height: 1.7;
+  line-height: 1.85;
   color: #5a4a3a;
 }
+
 .news-grid{
   display:grid;
   grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
