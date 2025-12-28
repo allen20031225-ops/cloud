@@ -471,3 +471,69 @@ footer{background:#2C2C2C;color:#ddd;text-align:center;padding:14px;font-size:.9
   padding: 0;
   overflow: hidden;
 }
+
+.home-signoff{
+  margin-top: 26px;
+  padding: 18px;
+  background: #f6f1e6;
+  border: 1px solid #e6ddcc;
+  border-radius: 18px;
+}
+
+.signoff-inner{
+  max-width: 760px;
+}
+
+.signoff-title{
+  margin: 0 0 6px;
+  font-size: 1.25rem;
+  color: #2c2c2c;
+}
+
+.signoff-sub{
+  margin: 0 0 12px;
+  color: #6a5c44;
+  line-height: 1.6;
+}
+
+.signoff-points{
+  margin: 0 0 14px;
+  padding-left: 18px;
+  color: #4a3a2a;
+  line-height: 1.85;
+}
+
+.signoff-actions{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn{
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border: 1px solid transparent;
+}
+
+.btn-primary{
+  background: #c9a24d;
+  color: #1c1c1c;
+}
+
+.btn-primary:hover{
+  filter: brightness(0.98);
+}
+
+.btn-ghost{
+  background: #fff;
+  border-color: #d9d0bf;
+  color: #2c2c2c;
+}
+
+.btn-ghost:hover{
+  background: #fbfaf7;
+}
