@@ -445,3 +445,24 @@ footer{background:#2C2C2C;color:#ddd;text-align:center;padding:14px;font-size:.9
   object-fit: cover;
   display: block;
 }
+
+.map-card{
+  margin-top: 18px;
+}
+
+.map-img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  border: 1px solid #ddd;
+  box-shadow: 0 6px 16px rgba(0,0,0,.12);
+  margin-top: 10px;
+}
+
+.map-note{
+  margin-top: 10px;
+  color: #5a4a3a;
+  line-height: 1.85;
+  font-size: 0.95rem;
+}
