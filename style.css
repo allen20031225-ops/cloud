@@ -466,3 +466,8 @@ footer{background:#2C2C2C;color:#ddd;text-align:center;padding:14px;font-size:.9
   line-height: 1.85;
   font-size: 0.95rem;
 }
+
+.map-card{
+  padding: 0;
+  overflow: hidden;
+}
